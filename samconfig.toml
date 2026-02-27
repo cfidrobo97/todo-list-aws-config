@@ -1,11 +1,11 @@
 version = 0.1
 [default.deploy.parameters]
-stack_name = "staging-todo-list-aws"
+stack_name = "production-todo-list-aws"
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-klbfdctkgvqe"
-s3_prefix = "staging-todo-list-aws"
+s3_prefix = "production-todo-list-aws"
 region = "us-east-1"
 capabilities = "CAPABILITY_IAM"
-parameter_overrides = "Stage=\"staging\""
+parameter_overrides = "Stage=\"production\""
 confirm_changeset = false
 fail_on_empty_changeset = false
 resolve_s3 = true
