@@ -8,4 +8,3 @@ capabilities = "CAPABILITY_IAM"
 parameter_overrides = "Stage=\"production\""
 confirm_changeset = false
 fail_on_empty_changeset = false
-resolve_s3 = true 
